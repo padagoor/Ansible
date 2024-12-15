@@ -12,3 +12,8 @@ ansible test-server -m service -a "name=httpd state=started" -b -- > start the s
 ansible test-server -m user -a "name=vikas" -b --> Create a new user
 ansible test-server -m user -a "name=vikas state=absent" -b --> delete the user
 ansible test-server -a "/sbin/reboot" -b  --> reboot command
+
+******************************************
+
+check status in deployment node
+service httpd status
