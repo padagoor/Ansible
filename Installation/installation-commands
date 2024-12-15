@@ -6,6 +6,9 @@ visudo - Change permission [ansadmin ALL=(ALL)       NOPASSWD: ALL]
 cd /etc/ssh
 nano sshd_config (PasswordAuthentication yes)
 service sshd reload
+
+install ansible
+
 sudo amazon-linux-extras install ansible2 - Install Ansible
 ansible --version
 cd /etc/ansible/
